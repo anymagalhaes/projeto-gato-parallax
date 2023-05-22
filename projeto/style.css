@@ -16,7 +16,7 @@
     padding: 0px;
 }
 header {
-    background-color: var(--corbase);
+    background-image: linear-gradient(to bottom, #f2ed6f, #fd9f4d, #0a2342);
     color: white;
     text-align: center;
     padding: 60px;
@@ -28,6 +28,10 @@ header > p {
 h1 {
     font-family: var(--font2);
     font-size: 50px;
+    font-style: oblique;
+    text-shadow: 2px 2px 1px var(--corcabe);
+    line-height: 8vh;
+    padding-bottom: 10px;
 }
 
 main {
